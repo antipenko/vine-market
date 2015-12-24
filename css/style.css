@@ -1,5 +1,11 @@
+*{
+	-webkit-box-sizing: border-box;
+	padding:0;
+	margin: 0;
+}
 body{
-
+	color:#47A3DA;
+	font:300 16px/1.8 'Lato', Arial,  sans-serif;
 }
 
 /* Typography */
@@ -54,4 +60,57 @@ textarea {
 .ba-container{
 	padding-left: 20px;
 	padding-right: 20px;
+	max-width: 1000px;
+	border: 3px solid #47A3DA;
+	margin-top:30px;
 }
+
+.ba-header {
+	border-bottom:3px solid #47A3DA;
+	margin-bottom: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	/*font-size: 1.5em;*/
+}
+
+.ba-grid__img, .ba-grid__a-product-name, .ba-grid__p-price, .ba-grid__p-about, .ba-grid__form {
+	text-align: center;
+}
+.ba-grid__img {
+	display: block;
+	margin: 20px auto 0;
+
+}
+.ba-grid__p-price {
+	color: #CECECE;
+	font-size: 1.5em;
+	margin: 0;
+}
+
+.ba-grid__a-product-name_bold {
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	color:#47A3DA;
+	font-size: 2em;
+	margin: 0 auto;
+	font-weight: 700;
+}
+.ba-grid__button {
+	background: #47A3DA;
+	color:white;
+	border-radius: 3px;
+	padding:5px 20px;
+	margin:20px auto;
+
+}
+.ba-grid__p-about{
+	min-height: 90px;
+}
+
+.ba-grid__button:before {
+    content: "+";
+    color:white;
+
+}
+
