@@ -98,9 +98,10 @@ textarea {
 }
 .ba-grid__button {
 	background: #47A3DA;
+	position: relative;
 	color:white;
 	border-radius: 3px;
-	padding:5px 20px;
+	padding:5px 20px 5px 40px;
 	margin:20px auto;
 	border:none;
 
@@ -110,8 +111,16 @@ textarea {
 }
 
 .ba-grid__button:before {
-    content: "+";
-    color:white;
-
+        content: "+";
+    position: absolute;
+    top: 12px;
+    font-size: 16px;
+    line-height: 0.9;
+    left: 20px;
+    width: 14px;
+    font-weight: 700;
+    border-radius: 50%;
+    background: #FFFFFF;
+    color: #47A3DA;
 }
 
